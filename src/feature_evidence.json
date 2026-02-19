@@ -1,0 +1,202 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-create-a-hero-section-with-name-display-aspiring-software-developer-computer-science-student-a-short-introduction-paragraph-focused-on-problem-solving-and-building-real-world-applications-and-two-call-to-action-buttons-labeled-view-projects-and-download-resume-implement-subtle-entrance-animations-fade-in-slide-up-for-text-and-buttons-on-page-load",
+      "featureTitle": "Create a Hero section with name display 'Aspiring Software Developer | Computer Science Student', a short introduction paragraph focused on problem-solving and building real-world applications, and two call-to-action buttons labeled 'View Projects' and 'Download Resume'. Implement subtle entrance animations (fade-in + slide-up) for text and buttons on page load.",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/Hero.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-1"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-an-about-me-section-with-a-concise-professional-bio-of-5-6-lines-that-focuses-on-technical-curiosity-learning-mindset-and-career-goals-implement-gentle-fade-in-animation-that-triggers-when-the-section-scrolls-into-view",
+      "featureTitle": "Create an About Me section with a concise, professional bio of 5-6 lines that focuses on technical curiosity, learning mindset, and career goals. Implement gentle fade-in animation that triggers when the section scrolls into view.",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/About.tsx",
+        "frontend/src/hooks/useScrollAnimation.ts"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-skills-section-with-categorized-skill-groups-languages-frontend-backend-databases-and-tools-display-skills-in-a-clean-grid-layout-with-hover-micro-interactions-subtle-scale-or-color-change-on-hover",
+      "featureTitle": "Create a Skills section with categorized skill groups: Languages, Frontend, Backend, Databases, and Tools. Display skills in a clean grid layout with hover micro-interactions (subtle scale or color change on hover).",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/Skills.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-projects-section-with-professional-project-cards-each-card-must-display-project-title-1-2-line-problem-focused-description-tech-stack-used-github-link-button-and-live-demo-button-implement-hover-animations-on-cards-slight-scale-up-and-shadow-enhancement-emphasize-functionality-and-impact-in-descriptions",
+      "featureTitle": "Create a Projects section with professional project cards. Each card must display: project title, 1-2 line problem-focused description, tech stack used, GitHub link button, and Live Demo button. Implement hover animations on cards (slight scale up and shadow enhancement). Emphasize functionality and impact in descriptions.",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/ProjectCard.tsx",
+        "frontend/src/components/Projects.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-resume-section-with-a-clear-button-to-download-resume-pdf-format-implement-professional-styling-with-hover-feedback-color-change-scale-or-shadow",
+      "featureTitle": "Create a Resume section with a clear button to download resume (PDF format). Implement professional styling with hover feedback (color change, scale, or shadow).",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/Resume.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-contact-section-displaying-an-email-address-github-and-linkedin-icon-links-and-a-simple-contact-form-implement-subtle-animations-on-form-interaction-focus-states-input-animations",
+      "featureTitle": "Create a Contact section displaying an email address, GitHub and LinkedIn icon links, and a simple contact form. Implement subtle animations on form interaction (focus states, input animations).",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/Contact.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-implement-smooth-fade-in-and-slide-up-animations-on-scroll-for-all-major-sections-about-me-skills-projects-contact-ensure-animations-are-triggered-when-sections-enter-the-viewport-and-feel-professional-and-fast",
+      "featureTitle": "Implement smooth fade-in and slide-up animations on scroll for all major sections (About Me, Skills, Projects, Contact). Ensure animations are triggered when sections enter the viewport and feel professional and fast.",
+      "files": [
+        "frontend/src/components/About.tsx",
+        "frontend/src/components/Contact.tsx",
+        "frontend/src/components/Projects.tsx",
+        "frontend/src/components/Skills.tsx",
+        "frontend/src/index.css"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-implement-subtle-hover-effects-throughout-the-site-buttons-should-have-scale-or-color-transitions-cards-should-lift-slightly-or-enhance-shadows-and-navigation-items-should-display-animated-underline-or-highlight-effects-ensure-smooth-page-scrolling-behavior",
+      "featureTitle": "Implement subtle hover effects throughout the site: buttons should have scale or color transitions, cards should lift slightly or enhance shadows, and navigation items should display animated underline or highlight effects. Ensure smooth page scrolling behavior.",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/Navigation.tsx",
+        "frontend/src/index.css"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-8"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-apply-a-modern-minimal-design-system-with-a-neutral-base-color-palette-plus-one-accent-color-use-high-quality-typography-inter-or-poppings-style-font-balanced-whitespace-consistent-spacing-throughout-and-excellent-contrast-for-readability-implement-either-a-light-or-dark-theme-with-professional-polish",
+      "featureTitle": "Apply a modern, minimal design system with a neutral base color palette plus one accent color. Use high-quality typography (Inter or Poppings-style font), balanced whitespace, consistent spacing throughout, and excellent contrast for readability. Implement either a light or dark theme with professional polish.",
+      "files": [
+        "frontend/index.html",
+        "frontend/src/index.css",
+        "frontend/tailwind.config.js"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-9"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-establish-a-modern-sophisticated-visual-theme-with-a-minimal-aesthetic-that-conveys-professionalism-suitable-for-tech-recruiters-the-design-should-feel-premium-yet-approachable-with-a-cohesive-color-scheme-typography-hierarchy-and-spacing-system-that-creates-visual-harmony-across-all-sections-avoid-blue-and-purple-color-schemes-unless-explicitly-requested",
+      "featureTitle": "Establish a modern, sophisticated visual theme with a minimal aesthetic that conveys professionalism suitable for tech recruiters. The design should feel premium yet approachable, with a cohesive color scheme, typography hierarchy, and spacing system that creates visual harmony across all sections. Avoid blue and purple color schemes unless explicitly requested.",
+      "files": [
+        "frontend/src/index.css",
+        "frontend/tailwind.config.js"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-10"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

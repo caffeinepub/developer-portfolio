@@ -1,0 +1,234 @@
+{
+  "kind": "build_request",
+  "title": "Build professional developer portfolio website",
+  "projectName": "Developer Portfolio",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Create a Hero section with name display 'Aspiring Software Developer | Computer Science Student', a short introduction paragraph focused on problem-solving and building real-world applications, and two call-to-action buttons labeled 'View Projects' and 'Download Resume'. Implement subtle entrance animations (fade-in + slide-up) for text and buttons on page load.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Name and title: \"Aspiring Software Developer | Computer Science Student\"",
+          "Short introduction focused on problem-solving and building real-world applications",
+          "Call-to-action buttons: View Projects and Download Resume",
+          "Subtle entrance animation for text and buttons"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Hero section displays the exact title 'Aspiring Software Developer | Computer Science Student'",
+        "Short introduction paragraph is present and focuses on problem-solving",
+        "Two distinct CTA buttons are visible: 'View Projects' and 'Download Resume'",
+        "Entrance animations trigger on page load with fade-in and slide-up effects"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Create an About Me section with a concise, professional bio of 5-6 lines that focuses on technical curiosity, learning mindset, and career goals. Implement gentle fade-in animation that triggers when the section scrolls into view.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Concise, professional bio (5–6 lines)",
+          "Focus on technical curiosity, learning mindset, and career goals",
+          "Gentle fade-in animation on scroll"
+        ]
+      },
+      "acceptanceCriteria": [
+        "About Me section contains a bio text of 5-6 lines",
+        "Bio emphasizes technical curiosity, learning mindset, and career goals",
+        "Fade-in animation triggers when section enters viewport"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Create a Skills section with categorized skill groups: Languages, Frontend, Backend, Databases, and Tools. Display skills in a clean grid layout with hover micro-interactions (subtle scale or color change on hover).",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Categorized skill sections: Languages, Frontend, Backend, Databases, Tools",
+          "Clean grid layout with hover micro-interactions"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Five distinct skill categories are displayed: Languages, Frontend, Backend, Databases, Tools",
+        "Skills are arranged in a grid layout",
+        "Hover effects are implemented on skill items with subtle visual feedback"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Create a Projects section with professional project cards. Each card must display: project title, 1-2 line problem-focused description, tech stack used, GitHub link button, and Live Demo button. Implement hover animations on cards (slight scale up and shadow enhancement). Emphasize functionality and impact in descriptions.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Professional project cards with: Project title, 1–2 line problem-focused description, Tech stack used, GitHub link and Live Demo button",
+          "Hover animation on cards (slight scale / shadow)",
+          "Emphasis on functionality and impact"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Project cards display all required fields: title, description, tech stack, GitHub and Live Demo buttons",
+        "Descriptions are 1-2 lines and problem-focused",
+        "Hover effect scales card slightly and enhances shadow",
+        "Multiple sample projects are displayed to demonstrate the layout"
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "text": "Create a Resume section with a clear button to download resume (PDF format). Implement professional styling with hover feedback (color change, scale, or shadow).",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Clear button to download resume (PDF)",
+          "Professional styling with hover feedback"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Resume download button is clearly visible and labeled",
+        "Button indicates PDF download functionality",
+        "Hover effect provides visual feedback"
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "text": "Create a Contact section displaying an email address, GitHub and LinkedIn icon links, and a simple contact form. Implement subtle animations on form interaction (focus states, input animations).",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Email address, GitHub and LinkedIn icons",
+          "Simple contact form",
+          "Subtle animations on interaction"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Email address is displayed clearly",
+        "GitHub and LinkedIn icons are present and linked",
+        "Contact form includes standard fields (name, email, message)",
+        "Form inputs show subtle animations on focus/interaction"
+      ]
+    },
+    {
+      "id": "REQ-7",
+      "text": "Implement smooth fade-in and slide-up animations on scroll for all major sections (About Me, Skills, Projects, Contact). Ensure animations are triggered when sections enter the viewport and feel professional and fast.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Smooth fade-in + slide-up animations on scroll",
+          "Animations must feel professional, fast, and non-distracting"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Sections animate into view when scrolled to",
+        "Animation combines fade-in and slide-up effects",
+        "Animations are smooth and complete within 0.3-0.6 seconds",
+        "No animation lag or jank"
+      ]
+    },
+    {
+      "id": "REQ-8",
+      "text": "Implement subtle hover effects throughout the site: buttons should have scale or color transitions, cards should lift slightly or enhance shadows, and navigation items should display animated underline or highlight effects. Ensure smooth page scrolling behavior.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Subtle hover effects on buttons, cards, and links",
+          "Animated underline or highlight on navigation items",
+          "Smooth page scrolling and transitions"
+        ]
+      },
+      "acceptanceCriteria": [
+        "All buttons respond to hover with visual feedback",
+        "Cards have lift or shadow enhancement on hover",
+        "Navigation items show animated underline or highlight on hover",
+        "Page scrolling is smooth (no instant jumps)"
+      ]
+    },
+    {
+      "id": "REQ-9",
+      "text": "Apply a modern, minimal design system with a neutral base color palette plus one accent color. Use high-quality typography (Inter or Poppings-style font), balanced whitespace, consistent spacing throughout, and excellent contrast for readability. Implement either a light or dark theme with professional polish.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Clean, modern UI inspired by top tech portfolios",
+          "Minimal color palette (neutral base + one accent color)",
+          "High-quality typography (Inter / Poppins style)",
+          "Balanced whitespace and consistent spacing",
+          "Light or dark theme with excellent contrast"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Color palette uses neutral base colors with one distinct accent color (not blue and purple combination)",
+        "Typography resembles Inter or Poppins font families",
+        "Whitespace and spacing are consistent across all sections",
+        "Text has excellent contrast against backgrounds",
+        "Overall design feels modern and minimal"
+      ]
+    },
+    {
+      "id": "REQ-10",
+      "text": "Establish a modern, sophisticated visual theme with a minimal aesthetic that conveys professionalism suitable for tech recruiters. The design should feel premium yet approachable, with a cohesive color scheme, typography hierarchy, and spacing system that creates visual harmony across all sections. Avoid blue and purple color schemes unless explicitly requested.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "modern, minimal, and recruiter-friendly",
+          "Clean, modern UI inspired by top tech portfolios"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Visual design feels cohesive and professional across all sections",
+        "Color scheme is sophisticated and suitable for a developer portfolio",
+        "Typography hierarchy is clear and readable",
+        "Overall aesthetic appeals to tech recruiters and hiring managers"
+      ]
+    }
+  ],
+  "constraints": [
+    "Animations must be subtle, professional, and non-distracting",
+    "Design must be recruiter-friendly and suitable for college placement applications",
+    "Color palette must use neutral base with one accent color (avoid blue and purple unless requested)",
+    "All interactive elements must have appropriate hover states",
+    "Typography must be high-quality (Inter or Poppins style)"
+  ],
+  "nonGoals": [
+    "Exaggerated animations or flashy effects",
+    "Multiple color themes or theme switcher",
+    "Blog or article sections",
+    "Admin dashboard or content management system",
+    "User authentication or login functionality",
+    "Backend data persistence for projects or skills"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}
